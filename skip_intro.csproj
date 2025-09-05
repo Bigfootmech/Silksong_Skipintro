@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateNeutralResourcesLanguageAttribute>false</GenerateNeutralResourcesLanguageAttribute>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\GOG Games\Hollow Knight Silksong\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\GOG Games\Hollow Knight Silksong\Hollow Knight Silksong_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\..\..\..\GOG Games\Hollow Knight Silksong\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>..\..\..\..\..\..\GOG Games\Hollow Knight Silksong\Hollow Knight Silksong_Data\Managed\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\GOG Games\Hollow Knight Silksong\Hollow Knight Silksong_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\..\..\GOG Games\Hollow Knight Silksong\Hollow Knight Silksong_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\GOG Games\Hollow Knight Silksong\Hollow Knight Silksong_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
