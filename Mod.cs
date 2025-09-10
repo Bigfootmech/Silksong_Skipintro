@@ -5,12 +5,10 @@ using UnityEngine;
 
 namespace silksong_nointro_mod
 {
-    [BepInPlugin(modGUID, modName, modVersion)]
+    [BepInPlugin(modGUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     public class Mod : BaseUnityPlugin
     {
         private const string modGUID = "com.bigfootmech.silksong.nointro";
-        private const string modName = "Skip Intro";
-        private const string modVersion = "0.0.1";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
