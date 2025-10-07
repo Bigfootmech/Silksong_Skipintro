@@ -6,7 +6,8 @@ QOL for people opening the game multiple times, eg: modders
 <h1>Links:</h1>
 GitHub: <a href = "https://github.com/Bigfootmech/Silksong_Skipintro">https://github.com/Bigfootmech/Silksong_Skipintro</a> <br />
 NexusMods: <a href = "https://www.nexusmods.com/hollowknightsilksong/mods/82">https://www.nexusmods.com/hollowknightsilksong/mods/82</a> <br />
-Thunderstore: <a href = "https://thunderstore.io/c/hollow-knight-silksong/p/Bigfootmech/Silksong_Skip_Intro/" >https://thunderstore.io/c/hollow-knight-silksong/p/Bigfootmech/Silksong_Skip_Intro/</a>
+Thunderstore: <a href = "https://thunderstore.io/c/hollow-knight-silksong/p/Bigfootmech/Silksong_Skip_Intro/" >https://thunderstore.io/c/hollow-knight-silksong/p/Bigfootmech/Silksong_Skip_Intro/</a><br />
+Moddb: <a href = "https://www.moddb.com/games/hollow-knight-silksong/addons/skip-intro#downloadsform">https://www.moddb.com/games/hollow-knight-silksong/addons/skip-intro#downloadsform</a> <br />
 
 <h1>To install:</h1>
 
